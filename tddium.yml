@@ -1,0 +1,9 @@
+plan:
+ - default
+profiles:
+  default:
+    script: "/usr/local/repos/___/test.sh"
+    environment:
+      'FOOBARVAR': 'foobarval'
+      'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    timeout: 9000
