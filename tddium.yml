@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "apt-get install tree && cd / && tree ."
+    script: "ls /usr/local && ls /usr/local/repos && cd && ls && cd / && ls"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
