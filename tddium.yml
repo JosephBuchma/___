@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/bin/bash shit.sh"
+    script: "ls"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
