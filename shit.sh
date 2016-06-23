@@ -2,4 +2,4 @@
 
 echo 'test script'
 
-exit 1
+exit 0
