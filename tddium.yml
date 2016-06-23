@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "~/src/universal_workers_test_repo/shit.sh"
+    script: "shit.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
