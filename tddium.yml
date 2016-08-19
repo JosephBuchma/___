@@ -2,8 +2,6 @@ plan:
  - default
 profiles:
   default:
-    system:
-      session_manager: "destro_free"
     script: "/usr/local/repos/test.sh"
     environment:
       'FOOBARVAR': 'foobarval'
